@@ -1,0 +1,37 @@
+Algoritmo "Calculadora Básica de todos os valores"
+// 
+//  
+// Descrição   : Realizar todos calculos básicos de dois valores
+// Autor(a)    : Hanrry Daniel Silva de Almeida
+// Data atual  : 08/12/2021
+Var
+// Seção de Declarações das variáveis 
+
+num1: real;
+num2: real;
+calculo: real;
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   Escreval("Digite o primeiro valor:")
+   leia(num1)
+   
+   Escreval("Digite o segundo valor")
+   Leia(num2)
+   
+   escreval ("Pressione enter para aparecer os calculos.")
+   leia (calculo)
+   
+   caso calculo = somar faca
+      escreval ("A soma dos numeros digitados é: ", num1 + num2)
+
+   caso calculo = multiplicar faca
+      escreval ("A multiplicação dos numeros digitados é: ", num1 * num2)
+
+   caso calculo = diminuir    faca
+      escreval ("A subtração dos numeros digitado é: ", num1 - num2)
+      
+   caso calculo = dividir    faca
+      escreval ("A divisão dos numeros digitado é: ", num1 / num2)
+
+Fimalgoritmo
